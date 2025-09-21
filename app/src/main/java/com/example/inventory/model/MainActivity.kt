@@ -8,7 +8,6 @@ import androidx.activity.viewModels
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import com.example.inventory.model.ui.MainScreen
-import com.example.inventory.model.ProductViewModel
 
 class MainActivity: ComponentActivity() {
     private val vm: ProductViewModel by viewModels()
